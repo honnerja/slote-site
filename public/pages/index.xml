@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on SLOT Wellness</title>
+    <link>http://localhost:1313/pages/</link>
+    <description>Recent content in Pages on SLOT Wellness</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2026 </copyright>
+    <lastBuildDate>Wed, 03 Jun 2026 00:53:18 -0400</lastBuildDate><atom:link href="http://localhost:1313/pages/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Testimonials</title>
+      <link>http://localhost:1313/pages/testimonials/</link>
+      <pubDate>Wed, 03 Jun 2026 00:53:18 -0400</pubDate>
+      
+      <guid>http://localhost:1313/pages/testimonials/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Mission</title>
+      <link>http://localhost:1313/pages/mission/</link>
+      <pubDate>Wed, 03 Jun 2026 00:53:07 -0400</pubDate>
+      
+      <guid>http://localhost:1313/pages/mission/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Services</title>
+      <link>http://localhost:1313/pages/services/</link>
+      <pubDate>Wed, 03 Jun 2026 00:53:01 -0400</pubDate>
+      
+      <guid>http://localhost:1313/pages/services/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/pages/contact/</link>
+      <pubDate>Wed, 03 Jun 2026 00:52:36 -0400</pubDate>
+      
+      <guid>http://localhost:1313/pages/contact/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Meet Our Founders</title>
+      <link>http://localhost:1313/pages/meet-us/</link>
+      <pubDate>Wed, 03 Jun 2026 00:52:21 -0400</pubDate>
+      
+      <guid>http://localhost:1313/pages/meet-us/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>
