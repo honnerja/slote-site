@@ -1,16 +1,32 @@
 <!-- modify this form HTML and place wherever you want your form -->
-<form
+<form class="w-full max-w-lg"
   action="https://formspree.io/f/mgobwlgg"
   method="POST"
 >
-  <label>
-    Your email:
-    <input type="email" name="email">
+<div class="flex flex-col">
+<label>
+    Name
+    
   </label>
+  <input type="text" name="name">
+
   <label>
-    Your message:
-    <textarea name="message"></textarea>
+    Address
+
   </label>
-  <!-- your other form fields go here -->
+      <input type="text" name="address">
+
+  <label>
+    Phone Number
+  
+  </label>
+  <input type="text" name="phone-number">
+
+  <label>
+    Email
+  
+  </label>
+  <input type="email" name="email">
+  </div>
   <button type="submit">Send</button>
 </form>
