@@ -10,7 +10,7 @@ html {
 }
 
 .article-link {
-  opacity: 0.9;
+ opacity: 1.0;
 }
 
 .article-link:focus {

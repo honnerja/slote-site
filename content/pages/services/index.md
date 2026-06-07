@@ -15,6 +15,6 @@ SLOT Wellness is designed to be simple, accessible, and resident-centered. Resid
 
 ## Benefits
 
-- Your facility receives a **guaranteed monthly stipend** paid to your community by SLOT Wellness, as part of our partnership agreement.
+- Your community receives a **guaranteed monthly stipend** paid to your community by SLOT Wellness, as part of our partnership agreement.
 - SLOT Wellness provides **consistent, predictable revenue** with no added workload to you and your team.
-- No financial risk to your facility: no upfront investment required, no staffing cost added to your payroll and no disruption to your current therapy or care sevices.
+- No financial risk to your community: no upfront investment required, no staffing cost added to your payroll and no disruption to your current therapy or care sevices.

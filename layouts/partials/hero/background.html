@@ -64,13 +64,13 @@
   {{ if $shouldAddHeaderSpace | default true }}
     <div id="hero" class="h-[150px] md:h-[200px]"></div>
   {{ end }}
-  <div class="fixed inset-x-0 top-0 h-[800px] single_hero_background nozoom" style="opacity: 0.8;">
+  <div class="fixed inset-x-0 top-0 h-[800px] single_hero_background nozoom" style="background-color: #d5cbc1;">
     {{ $style := "" }}
     {{ $defaultPosition := cond $useDefault site.Params.imagePosition false }}
     {{ with $.Params.imagePosition | default $defaultPosition }}
       {{ $style = printf "object-position: %s;" . }}
     {{ end }}
-    <div style="opacity: 0.7; background-image: url({{ . }}); background-repeat: repeat; width: 100vw; height: 100vh;"></div>
+    <div style="opacity: 0.7;"></div>
     <div
       class="absolute inset-0"></div>
     <div
