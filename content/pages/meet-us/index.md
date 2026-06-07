@@ -3,6 +3,7 @@ date = '2026-06-03T00:52:21-04:00'
 draft = true
 title = 'Meet Our Founders'
 summary = 'Lorem ipsum dolor sit amet'
+weight = 10
 +++
 
 ## Connor Vincke, OTD, OTR/L, CLT

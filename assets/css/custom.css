@@ -1,12 +1,21 @@
+@font-face {
+    font-family: "ModernAntiqua";
+    src: url('/fonts/ModernAntiqua-Regular.ttf');
+    color: black;
+}
+
 html {
-  font-size: 13pt;
+  font-size: 12pt;
+  font-family: "ModernAntiqua";
 }
 
-/* article {
-  width: 70%;
+.article-link {
+  opacity: 0.9;
 }
 
-
+.article-link:focus {
+  opacity: 1.0;
+}
 
 article.left {
   margin-right: auto;
@@ -14,6 +23,10 @@ article.left {
 
 article.right {
   margin-left: auto;
+}
+
+.rightaligned {
+    text-align: right
 }
 
 article:nth-child(odd)  { margin-right: auto; }

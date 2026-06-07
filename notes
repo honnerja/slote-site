@@ -1,4 +1,6 @@
 color scheme
 primary FFFFFF
-secondary 496888
-tertiary d5cbc1
+secondary style="background-color: #d5cbc1"
+tertiary #d5cbc1
+
+#496888

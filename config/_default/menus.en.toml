@@ -16,8 +16,7 @@
   weight = 10
 
 [[main]]
-  name = "Our Mission"
-  pageRef = "mission"
+  name = "About Us"
   weight = 20
 
 [[main]]
@@ -35,11 +34,17 @@
   pageRef = "contact"
   weight = 50
 
-#[[main]]
-#  name = "example sub-menu 1"
-#  parent = "Parent"
-#  pageRef = "posts"
-#  weight = 20
+[[main]]
+  name = "Vision & Mission"
+  parent = "About Us"
+  pageRef = "mission"
+  weight = 20
+
+[[main]]
+  name = "LIVE WELL Pillars"
+  parent = "About Us"
+  pageRef = "pillars"
+  weight = 30
 
 #[[main]]
 #  name = "example sub-menu 2"

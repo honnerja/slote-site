@@ -109,8 +109,8 @@
   <link
     type="text/css"
     rel="stylesheet"
-    href="/css/main.bundle.min.bbe8888ad423daab2242e8d780ffba0fb24876808c8489491236bc28fdecdcb7412c7712d70a01c7fe2f13684e3e00523981f76934af019f58410e0bb9fd4b12.css"
-    integrity="sha512-u&#43;iIitQj2qsiQujXgP&#43;6D7JIdoCMhIlJEja8KP3s3LdBLHcS1woBx/4vE2hOPgBSOYH3aTSvAZ9YQQ4Luf1LEg==">
+    href="/css/main.bundle.min.7aa2b072a91a38bb0245f8528e6fff6d43dc035a00ccce76a0355647d98dc47025d810fe424ec1e6d43bacf0cb787e684aa1eca48f1de79df34fdcfbe233146d.css"
+    integrity="sha512-eqKwcqkaOLsCRfhSjm//bUPcA1oAzM52oDVWR9mNxHAl2BD&#43;Qk7B5tQ7rPDLeH5oSqHspI8d553zT9z74jMUbQ==">
 
   
   
@@ -280,6 +280,20 @@
   
     
     
+      <div>
+        <a href="/" class="flex">
+          <span class="sr-only">SLOT Wellness</span>
+          
+            <img
+              src="/img/logo.png"
+              width="348"
+              height="327"
+              class="logo max-h-20 max-w-20 object-scale-down object-left nozoom"
+              alt="">
+          
+        </a>
+      </div>
+    
   
   
     <a href="/" class="text-base font-medium truncate min-w-0 shrink">
@@ -312,20 +326,66 @@
     
       
   
-    <a
-      href="/pages/mission/"
-      
-      class="flex items-center bf-icon-color-hover"
-      aria-label="Our Mission"
-      title="Mission">
-      
-      
-      
-        <span class="text-base font-medium break-normal">
-          Our Mission
-        </span>
-      
-    </a>
+    <div class="nested-menu">
+      <div class="cursor-pointer flex items-center">
+        <a
+          
+            tabindex="0"
+          
+          aria-label="About Us"
+          class="flex items-center text-base font-medium bf-icon-color-hover"
+          title="">
+          
+          <span class="text-bg font-bg break-normal" title="">
+            About Us
+          </span>
+          <span>
+            <span class="relative block icon"><svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 20 20"
+  fill="currentColor"
+  aria-hidden="true"
+>
+  <path
+    fill-rule="evenodd"
+    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+    clip-rule="evenodd"
+  />
+</svg>
+</span>
+          </span>
+        </a>
+      </div>
+      <div class="menuhide">
+        <div class="pt-2 p-5 mt-2 rounded-xl backdrop-blur shadow-2xl bg-neutral/25 dark:bg-neutral-800/25">
+          <div class="flex flex-col space-y-3">
+            
+              <a
+                href="/pages/mission/"
+                
+                aria-label="Vision &amp; Mission"
+                class="flex items-center bf-icon-color-hover">
+                
+                <span class="text-sm font-sm" title="Mission and Vision">
+                  Vision &amp; Mission
+                </span>
+              </a>
+            
+              <a
+                href="/pages/pillars/"
+                
+                aria-label="LIVE WELL Pillars"
+                class="flex items-center bf-icon-color-hover">
+                
+                <span class="text-sm font-sm" title="Our LIVE WELL Pillars">
+                  LIVE WELL Pillars
+                </span>
+              </a>
+            
+          </div>
+        </div>
+      </div>
+    </div>
   
 
     
@@ -498,17 +558,68 @@
     
     <div class="px-2">
       <a
-        href="/pages/mission/"
-        aria-label="Our Mission"
+        href=""
+        aria-label="About Us"
         
         class="flex items-center gap-4 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
         
-        <span title="Mission" class="text-2xl font-bold tracking-tight">
-          Our Mission
+        <span title="" class="text-2xl font-bold tracking-tight">
+          About Us
         </span>
+        
+          <label
+            for="fullscreen-submenu-about-us"
+            class="ms-auto flex items-center justify-center h-10 w-10 cursor-pointer rounded-lg bf-icon-color-hover border bf-border-color bf-border-color-hover">
+            <span class="relative block icon"><svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 20 20"
+  fill="currentColor"
+  aria-hidden="true"
+>
+  <path
+    fill-rule="evenodd"
+    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+    clip-rule="evenodd"
+  />
+</svg>
+</span>
+          </label>
         
       </a>
 
+      
+        <input checked type="checkbox" id="fullscreen-submenu-about-us" autocomplete="off" class="hidden peer/full">
+
+        <div
+          class="grid grid-rows-[0fr] transition-[grid-template-rows] duration-300 peer-checked/full:grid-rows-[1fr]">
+          <div class="overflow-hidden">
+            <div class="ms-7 mt-4">
+              
+                <a
+                  href="/pages/mission/"
+                  aria-label="Vision &amp; Mission"
+                  
+                  class="flex items-center gap-3 p-2 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
+                  
+                  <span title="Mission and Vision" class="text-lg">
+                    Vision &amp; Mission
+                  </span>
+                </a>
+              
+                <a
+                  href="/pages/pillars/"
+                  aria-label="LIVE WELL Pillars"
+                  
+                  class="flex items-center gap-3 p-2 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
+                  
+                  <span title="Our LIVE WELL Pillars" class="text-lg">
+                    LIVE WELL Pillars
+                  </span>
+                </a>
+              
+            </div>
+          </div>
+        </div>
       
     </div>
   
@@ -598,20 +709,39 @@
         
   
   
-    <article class="max-w-full prose dark:prose-invert">
+    
+
   
-  <section class="w-full"><p>Hello world!
+  
+    
+  
+
+
+<article class="max-w-full prose dark:prose-invert">
+  <div class="fixed inset-x-0 top-0 h-[800px] single_hero_background nozoom opacity-90">
+    <div style="opacity: 0.7; background-image: url(/background.svg); background-repeat: repeat; width: 100vw; height: 100vh;"></div>
+    <div
+      class="absolute inset-0"></div>
+    <div
+      class="absolute inset-0"></div>
+  </div>
+  
+    <header>
+      <h1>SLOT Wellness</h1>
+    </header>
+  
+  <section class="w-full"><p>Lorem ipsum dolor sit amet
 
 
 
 
 
 
-<h2 class="mt-20 text-2xl font-extrabold mb-10">Recent</h2>
+<h2 class="mt-20 text-2xl font-extrabold mb-10">Explore</h2>
 
 
 
-  <section class="space-y-10 w-full mt-10 mb-10">
+  <section class="space-y-10 w-full mt-20 mb-20">
     
       
         
@@ -638,6 +768,8 @@
 
   
   
+    
+  
 
 
   
@@ -672,15 +804,340 @@
 
 
 
-<article class="article-link--simple flex flex-col md:flex-row relative">
-  <img
-  id="background-image"
-  src=""
-  role="presentation" 
-  class="absolute inset-0 w-full h-full object-cover -z-10"
-  >
+<article class="article-link--simple flex flex-col md:flex-row relative m-2 outline-2 ring-2 rounded-lg overflow-hidden article-link" style="background-image: url('/pages/meet-us/background.svg'); background-repeat: repeat;">
+  <div class="m-2 flex">
   
-    <div class="flex-none relative overflow-hidden  thumbnail-shadow md:mr-7 thumbnail">
+    <div class="relative overflow-hidden  thumbnail-shadow md:mr-7 thumbnail">
+      <img
+        src="/pages/meet-us/feature_hu_75babc18cbf4a02a.jpg"
+        role="presentation"
+        loading="lazy"
+        decoding="async"
+        class="not-prose absolute inset-0 w-full h-full object-cover">
+    </div>
+  
+  <div class=" mt-3 md:mt-0">
+    <header class="items-center text-start text-xl font-semibold">
+      <a
+        
+          href="/pages/meet-us/"
+        
+        class="not-prose before:absolute before:inset-0 decoration-primary-500 dark:text-neutral text-xl font-bold text-neutral-800 hover:underline hover:underline-offset-2">
+        <h2>
+          Meet Our Founders
+          
+        </h2>
+      </a>
+      
+        <div class="ms-2"><span class="flex cursor-pointer">
+  
+  
+  
+  
+    <span
+      class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
+    Draft
+  </span>
+</span>
+</div>
+      
+      
+    </header>
+    <div class="text-sm text-neutral-500 dark:text-neutral-400">
+      
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+
+    
+    
+  </div>
+
+  
+
+  
+  
+
+
+    </div>
+    
+      <div class="article-link__summary prose dark:prose-invert max-w-fit mt-1 line-clamp-3">
+        Lorem ipsum dolor sit amet
+      </div>
+    
+  </div>
+  <div class="px-6 pt-4 pb-2"></div>
+  </div>
+</article>
+
+        
+      
+        
+          
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+  
+  
+    
+
+    
+    
+      
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+    
+
+    
+    
+      
+        
+        
+          
+        
+      
+    
+  
+
+
+
+<article class="article-link--simple flex flex-col md:flex-row relative m-2 outline-2 ring-2 rounded-lg overflow-hidden article-link" style="background-image: url('/pages/pillars/background.svg'); background-repeat: repeat;">
+  <div class="m-2 flex">
+  
+    <div class="relative overflow-hidden  thumbnail-shadow md:mr-7 thumbnail">
+      <img
+        src="/pages/pillars/feature_hu_8008947e574e7d27.jpg"
+        role="presentation"
+        loading="lazy"
+        decoding="async"
+        class="not-prose absolute inset-0 w-full h-full object-cover">
+    </div>
+  
+  <div class=" mt-3 md:mt-0">
+    <header class="items-center text-start text-xl font-semibold">
+      <a
+        
+          href="/pages/pillars/"
+        
+        class="not-prose before:absolute before:inset-0 decoration-primary-500 dark:text-neutral text-xl font-bold text-neutral-800 hover:underline hover:underline-offset-2">
+        <h2>
+          Our LIVE WELL Pillars
+          
+        </h2>
+      </a>
+      
+        <div class="ms-2"><span class="flex cursor-pointer">
+  
+  
+  
+  
+    <span
+      class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
+    Draft
+  </span>
+</span>
+</div>
+      
+      
+    </header>
+    <div class="text-sm text-neutral-500 dark:text-neutral-400">
+      
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+
+    
+    
+  </div>
+
+  
+
+  
+  
+
+
+    </div>
+    
+      <div class="article-link__summary prose dark:prose-invert max-w-fit mt-1 line-clamp-3">
+        We promote enrichment, vitality, independence and connection
+      </div>
+    
+  </div>
+  <div class="px-6 pt-4 pb-2"></div>
+  </div>
+</article>
+
+        
+      
+        
+          
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+  
+  
+    
+
+    
+    
+      
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+    
+
+    
+    
+      
+        
+        
+          
+        
+      
+    
+  
+
+
+
+<article class="article-link--simple flex flex-col md:flex-row relative m-2 outline-2 ring-2 rounded-lg overflow-hidden article-link" style="background-image: url('/pages/testimonials/background.svg'); background-repeat: repeat;">
+  <div class="m-2 flex">
+  
+    <div class="relative overflow-hidden  thumbnail-shadow md:mr-7 thumbnail">
       <img
         src="/pages/testimonials/feature_hu_3cceaf63cf358356.jpg"
         role="presentation"
@@ -772,11 +1229,12 @@
     </div>
     
       <div class="article-link__summary prose dark:prose-invert max-w-fit mt-1 line-clamp-3">
-        Lorem ipsum dolor sit amet 
+        Lorem ipsum dolor sit amet
       </div>
     
   </div>
   <div class="px-6 pt-4 pb-2"></div>
+  </div>
 </article>
 
         
@@ -841,15 +1299,10 @@
 
 
 
-<article class="article-link--simple flex flex-col md:flex-row relative">
-  <img
-  id="background-image"
-  src="/pages/mission/background.png"
-  role="presentation" 
-  class="absolute inset-0 w-full h-full object-cover -z-10"
-  >
+<article class="article-link--simple flex flex-col md:flex-row relative m-2 outline-2 ring-2 rounded-lg overflow-hidden article-link" style="background-image: url('/pages/mission/background.svg'); background-repeat: repeat;">
+  <div class="m-2 flex">
   
-    <div class="flex-none relative overflow-hidden  thumbnail-shadow md:mr-7 thumbnail">
+    <div class="relative overflow-hidden  thumbnail-shadow md:mr-7 thumbnail">
       <img
         src="/pages/mission/feature_hu_b9928d26bf27bfa9.jpg"
         role="presentation"
@@ -866,7 +1319,7 @@
         
         class="not-prose before:absolute before:inset-0 decoration-primary-500 dark:text-neutral text-xl font-bold text-neutral-800 hover:underline hover:underline-offset-2">
         <h2>
-          Mission
+          Mission and Vision
           
         </h2>
       </a>
@@ -941,11 +1394,12 @@
     </div>
     
       <div class="article-link__summary prose dark:prose-invert max-w-fit mt-1 line-clamp-3">
-        Lorem ipsum dolor sit amet /pages/mission/background.png
+        Lorem ipsum dolor sit amet
       </div>
     
   </div>
   <div class="px-6 pt-4 pb-2"></div>
+  </div>
 </article>
 
         
@@ -1010,15 +1464,10 @@
 
 
 
-<article class="article-link--simple flex flex-col md:flex-row relative">
-  <img
-  id="background-image"
-  src="/pages/services/background.svg"
-  role="presentation" 
-  class="absolute inset-0 w-full h-full object-cover -z-10"
-  >
+<article class="article-link--simple flex flex-col md:flex-row relative m-2 outline-2 ring-2 rounded-lg overflow-hidden article-link" style="background-image: url('/pages/services/background.svg'); background-repeat: repeat;">
+  <div class="m-2 flex">
   
-    <div class="flex-none relative overflow-hidden  thumbnail-shadow md:mr-7 thumbnail">
+    <div class="relative overflow-hidden  thumbnail-shadow md:mr-7 thumbnail">
       <img
         src="/pages/services/feature_hu_eaef18143749b338.jpg"
         role="presentation"
@@ -1110,11 +1559,12 @@
     </div>
     
       <div class="article-link__summary prose dark:prose-invert max-w-fit mt-1 line-clamp-3">
-        Lorem ipsum dolor sit amet /pages/services/background.svg
+        Our program focuses on supporting residents in maintaining their abilities , preventing decline, and improving overall quality of life. Rather than waiting for problems to arise, SLOT Wellness emphasizes prevention, maintenance, restoration and helping residents stay active and engaged in their daily lives.
       </div>
     
   </div>
   <div class="px-6 pt-4 pb-2"></div>
+  </div>
 </article>
 
         
@@ -1143,6 +1593,8 @@
 
   
   
+    
+  
 
 
   
@@ -1177,15 +1629,10 @@
 
 
 
-<article class="article-link--simple flex flex-col md:flex-row relative">
-  <img
-  id="background-image"
-  src=""
-  role="presentation" 
-  class="absolute inset-0 w-full h-full object-cover -z-10"
-  >
+<article class="article-link--simple flex flex-col md:flex-row relative m-2 outline-2 ring-2 rounded-lg overflow-hidden article-link" style="background-image: url('/pages/contact/background.svg'); background-repeat: repeat;">
+  <div class="m-2 flex">
   
-    <div class="flex-none relative overflow-hidden  thumbnail-shadow md:mr-7 thumbnail">
+    <div class="relative overflow-hidden  thumbnail-shadow md:mr-7 thumbnail">
       <img
         src="/pages/contact/feature_hu_dd1d0ef430206d77.jpg"
         role="presentation"
@@ -1277,178 +1724,12 @@
     </div>
     
       <div class="article-link__summary prose dark:prose-invert max-w-fit mt-1 line-clamp-3">
-        Lorem ipsum dolor sit amet 
+        Lorem ipsum dolor sit amet
       </div>
     
   </div>
   <div class="px-6 pt-4 pb-2"></div>
-</article>
-
-        
-      
-        
-          
-
-
-
-
-
-
-
-
-  
-  
-  
-
-
-
-
-
-
-
-
-
-  
-  
-
-
-  
-  
-    
-
-    
-    
-      
-      
-        
-      
-        
-      
-        
-      
-    
-
-    
-    
-
-    
-    
-      
-        
-        
-          
-        
-      
-    
-  
-
-
-
-<article class="article-link--simple flex flex-col md:flex-row relative">
-  <img
-  id="background-image"
-  src=""
-  role="presentation" 
-  class="absolute inset-0 w-full h-full object-cover -z-10"
-  >
-  
-    <div class="flex-none relative overflow-hidden  thumbnail-shadow md:mr-7 thumbnail">
-      <img
-        src="/pages/meet-us/feature_hu_76fafe0332ab8690.png"
-        role="presentation"
-        loading="lazy"
-        decoding="async"
-        class="not-prose absolute inset-0 w-full h-full object-cover">
-    </div>
-  
-  <div class=" mt-3 md:mt-0">
-    <header class="items-center text-start text-xl font-semibold">
-      <a
-        
-          href="/pages/meet-us/"
-        
-        class="not-prose before:absolute before:inset-0 decoration-primary-500 dark:text-neutral text-xl font-bold text-neutral-800 hover:underline hover:underline-offset-2">
-        <h2>
-          Meet Our Founders
-          
-        </h2>
-      </a>
-      
-        <div class="ms-2"><span class="flex cursor-pointer">
-  
-  
-  
-  
-    <span
-      class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-  
-    Draft
-  </span>
-</span>
-</div>
-      
-      
-    </header>
-    <div class="text-sm text-neutral-500 dark:text-neutral-400">
-      
-
-
-
-
-
-
-
-  
-
-  
-  
-  
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  <div class="flex flex-row flex-wrap items-center">
-    
-    
-
-    
-    
   </div>
-
-  
-
-  
-  
-
-
-    </div>
-    
-      <div class="article-link__summary prose dark:prose-invert max-w-fit mt-1 line-clamp-3">
-        Lorem ipsum dolor sit amet 
-      </div>
-    
-  </div>
-  <div class="px-6 pt-4 pb-2"></div>
 </article>
 
         

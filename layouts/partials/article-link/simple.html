@@ -80,15 +80,10 @@
 {{ end }}
 
 
-<article class="article-link--simple {{ $cardClasses }}">
-  <img
-  id="background-image"
-  src="{{$background}}"
-  role="presentation" 
-  class="absolute inset-0 w-full h-full object-cover -z-10"
-  >
+<article class="article-link--simple {{ $cardClasses }} m-2 outline-2 ring-2 rounded-lg overflow-hidden article-link" style="background-image: url('{{$background}}'); background-repeat: repeat;">
+  <div class="m-2 flex">
   {{ with $featuredURL }}
-    <div class="flex-none relative overflow-hidden {{ $imgWrapperClasses }} thumbnail">
+    <div class="relative overflow-hidden {{ $imgWrapperClasses }} thumbnail">
       <img
         src="{{ . }}"
         role="presentation"
@@ -128,9 +123,10 @@
     </div>
     {{ if .Params.showSummary | default (site.Params.list.showSummary | default false) }}
       <div class="article-link__summary prose dark:prose-invert max-w-fit mt-1 line-clamp-3">
-        {{ .Summary | plainify }} {{$background}}
+        {{ .Summary | plainify }}
       </div>
     {{ end }}
   </div>
   <div class="px-6 pt-4 pb-2"></div>
+  </div>
 </article>
