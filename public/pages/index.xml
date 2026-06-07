@@ -2,72 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on SLOT Wellness</title>
-    <link>http://localhost:1313/pages/</link>
+    <link>https://slotwellness.com/pages/</link>
     <description>Recent content in Pages on SLOT Wellness</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 </copyright>
-    <lastBuildDate>Sat, 06 Jun 2026 23:54:46 -0400</lastBuildDate><atom:link href="http://localhost:1313/pages/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Meet Our Founders</title>
-      <link>http://localhost:1313/pages/meet-us/</link>
-      <pubDate>Wed, 03 Jun 2026 00:52:21 -0400</pubDate>
-      
-      <guid>http://localhost:1313/pages/meet-us/</guid>
-      <description>Lorem ipsum dolor sit amet</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/pages/meet-us/feature.jpg" />
-    </item>
-    
-    <item>
-      <title>Our LIVE WELL Pillars</title>
-      <link>http://localhost:1313/pages/pillars/</link>
-      <pubDate>Sat, 06 Jun 2026 23:54:46 -0400</pubDate>
-      
-      <guid>http://localhost:1313/pages/pillars/</guid>
-      <description>We promote enrichment, vitality, independence and connection</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/pages/pillars/feature.jpg" />
-    </item>
-    
-    <item>
-      <title>Testimonials</title>
-      <link>http://localhost:1313/pages/testimonials/</link>
-      <pubDate>Wed, 03 Jun 2026 00:53:18 -0400</pubDate>
-      
-      <guid>http://localhost:1313/pages/testimonials/</guid>
-      <description>Lorem ipsum dolor sit amet</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/pages/testimonials/feature.jpg" />
-    </item>
-    
-    <item>
-      <title>Mission and Vision</title>
-      <link>http://localhost:1313/pages/mission/</link>
-      <pubDate>Wed, 03 Jun 2026 00:53:07 -0400</pubDate>
-      
-      <guid>http://localhost:1313/pages/mission/</guid>
-      <description>Lorem ipsum dolor sit amet</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/pages/mission/feature.jpg" />
-    </item>
-    
-    <item>
-      <title>Services</title>
-      <link>http://localhost:1313/pages/services/</link>
-      <pubDate>Wed, 03 Jun 2026 00:53:01 -0400</pubDate>
-      
-      <guid>http://localhost:1313/pages/services/</guid>
-      <description>Our program focuses on supporting residents in maintaining their abilities , preventing decline, and improving overall quality of life. Rather than waiting for problems to arise, SLOT Wellness emphasizes prevention, maintenance, restoration and helping residents stay active and engaged in their daily lives.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/pages/services/feature.jpg" />
-    </item>
-    
-    <item>
-      <title>Contact</title>
-      <link>http://localhost:1313/pages/contact/</link>
-      <pubDate>Wed, 03 Jun 2026 00:52:36 -0400</pubDate>
-      
-      <guid>http://localhost:1313/pages/contact/</guid>
-      <description>Lorem ipsum dolor sit amet</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/pages/contact/feature.jpg" />
-    </item>
+    <atom:link href="https://slotwellness.com/pages/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>
