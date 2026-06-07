@@ -1,0 +1,20 @@
+html {
+  font-size: 13pt;
+}
+
+/* article {
+  width: 70%;
+}
+
+
+
+article.left {
+  margin-right: auto;
+}
+
+article.right {
+  margin-left: auto;
+}
+
+article:nth-child(odd)  { margin-right: auto; }
+article:nth-child(even) { margin-left: auto; text-align: right; }
