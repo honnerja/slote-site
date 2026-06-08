@@ -4,7 +4,6 @@
 {{ $cardView := .Get "cardView" }}
 {{ $where := .Get "where" }}
 {{ $value := .Get "value" }}
-<h2 class="mt-20 text-2xl font-extrabold mb-10">{{ $title }}</h2>
 
 {{ if $cardView | default false }}
   <section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">

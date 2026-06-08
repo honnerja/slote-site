@@ -1,8 +1,8 @@
 +++
 date = '2026-06-03T00:53:18-04:00'
-draft = true
+draft = false
 title = 'Testimonials'
-summary = 'Lorem ipsum dolor sit amet'
+summary = 'Community members on how SLOT Wellness has helped them.'
 +++
 
 > SLOT has helped us become more active and confident in our daily lives. We feel better physically and mentally, and we have greater peace of mind about our overall well-being.

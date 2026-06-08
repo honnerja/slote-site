@@ -10,24 +10,43 @@ html {
 }
 
 .article-link {
- opacity: 1.0;
+ outline: solid;
+ border-radius: 10px;
+ outline-color: #496888;
 }
 
-.article-link:focus {
-  opacity: 1.0;
+.article-link:hover {
+  transition: 200ms;
+  outline-color: #6b8aaa;
+  scale: 110%;
 }
 
 article.left {
   margin-right: auto;
 }
 
-article.right {
-  margin-left: auto;
-}
 
 .rightaligned {
     text-align: right
 }
 
-article:nth-child(odd)  { margin-right: auto; }
-article:nth-child(even) { margin-left: auto; text-align: right; }
+.contact-form input {
+  border-radius: 10px;
+}
+
+.contact-form button {
+  background-color: #496888;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  border-radius: 15px;
+}
+
+.contact-form button:hover {
+  background-color: #6b8aaa;
+}

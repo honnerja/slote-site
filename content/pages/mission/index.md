@@ -1,8 +1,8 @@
 +++
 date = '2026-06-03T00:53:07-04:00'
-draft = true
+draft = false
 title = 'Mission and Vision'
-summary = 'Lorem ipsum dolor sit amet'
+summary = 'We aim to promote whole-person wellness and be a trusted partner in a vibrant community.'
 +++
 
 ## Mission

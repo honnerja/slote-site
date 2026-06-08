@@ -1,8 +1,8 @@
 +++
 date = '2026-06-03T00:52:21-04:00'
-draft = true
+draft = false
 title = 'Meet Our Founders'
-summary = 'Lorem ipsum dolor sit amet'
+summary = 'The founders of SLOT Wellness are Connor Vincke and Kaylee Harmon.'
 weight = 10
 +++
 

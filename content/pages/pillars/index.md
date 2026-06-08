@@ -1,8 +1,8 @@
 +++
 date = '2026-06-06T23:54:46-04:00'
-draft = true
+draft = false
 title = 'Our LIVE WELL Pillars'
-summary = 'We promote enrichment, vitality, independence and connection'
+summary = 'We promote enrichment, vitality, independence and connection.'
 +++
 
 - Life Enrichment: Providing opportunities that promote purpose, joy, and fulfillment.

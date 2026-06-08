@@ -1,8 +1,8 @@
 +++
 date = '2026-06-03T00:53:01-04:00'
-draft = true
+draft = false
 title = 'Services'
-summary = 'Our program focuses on supporting residents in maintaining their abilities , preventing decline, and improving overall quality of life. Rather than waiting for problems to arise, SLOT Wellness emphasizes prevention, maintenance, restoration and helping residents stay active and engaged in their daily lives.'
+summary = 'Our program focuses on supporting residents in maintaining their abilities , preventing decline, and improving overall quality of life.'
 +++
 
 ## Our Program
