@@ -2,71 +2,71 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on SLOT Wellness</title>
-    <link>http://localhost:1313/slote-site/pages/</link>
+    <link>https://honnerja.github.io/slote-site/pages/</link>
     <description>Recent content in Pages on SLOT Wellness</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 </copyright>
-    <lastBuildDate>Sat, 06 Jun 2026 23:54:46 -0400</lastBuildDate><atom:link href="http://localhost:1313/slote-site/pages/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Jun 2026 23:54:46 -0400</lastBuildDate><atom:link href="https://honnerja.github.io/slote-site/pages/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Meet Our Founders</title>
-      <link>http://localhost:1313/slote-site/pages/meet-us/</link>
+      <link>https://honnerja.github.io/slote-site/pages/meet-us/</link>
       <pubDate>Wed, 03 Jun 2026 00:52:21 -0400</pubDate>
       
-      <guid>http://localhost:1313/slote-site/pages/meet-us/</guid>
+      <guid>https://honnerja.github.io/slote-site/pages/meet-us/</guid>
       <description>The founders of SLOT Wellness are Connor Vincke and Kaylee Harmon.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/slote-site/pages/meet-us/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://honnerja.github.io/slote-site/pages/meet-us/feature.jpg" />
     </item>
     
     <item>
       <title>Our LIVE WELL Pillars</title>
-      <link>http://localhost:1313/slote-site/pages/pillars/</link>
+      <link>https://honnerja.github.io/slote-site/pages/pillars/</link>
       <pubDate>Sat, 06 Jun 2026 23:54:46 -0400</pubDate>
       
-      <guid>http://localhost:1313/slote-site/pages/pillars/</guid>
+      <guid>https://honnerja.github.io/slote-site/pages/pillars/</guid>
       <description>We promote enrichment, vitality, independence and connection.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/slote-site/pages/pillars/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://honnerja.github.io/slote-site/pages/pillars/feature.jpg" />
     </item>
     
     <item>
       <title>Testimonials</title>
-      <link>http://localhost:1313/slote-site/pages/testimonials/</link>
+      <link>https://honnerja.github.io/slote-site/pages/testimonials/</link>
       <pubDate>Wed, 03 Jun 2026 00:53:18 -0400</pubDate>
       
-      <guid>http://localhost:1313/slote-site/pages/testimonials/</guid>
+      <guid>https://honnerja.github.io/slote-site/pages/testimonials/</guid>
       <description>Community members on how SLOT Wellness has helped them.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/slote-site/pages/testimonials/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://honnerja.github.io/slote-site/pages/testimonials/feature.jpg" />
     </item>
     
     <item>
       <title>Mission and Vision</title>
-      <link>http://localhost:1313/slote-site/pages/mission/</link>
+      <link>https://honnerja.github.io/slote-site/pages/mission/</link>
       <pubDate>Wed, 03 Jun 2026 00:53:07 -0400</pubDate>
       
-      <guid>http://localhost:1313/slote-site/pages/mission/</guid>
+      <guid>https://honnerja.github.io/slote-site/pages/mission/</guid>
       <description>We aim to promote whole-person wellness and be a trusted partner in a vibrant community.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/slote-site/pages/mission/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://honnerja.github.io/slote-site/pages/mission/feature.jpg" />
     </item>
     
     <item>
       <title>Services</title>
-      <link>http://localhost:1313/slote-site/pages/services/</link>
+      <link>https://honnerja.github.io/slote-site/pages/services/</link>
       <pubDate>Wed, 03 Jun 2026 00:53:01 -0400</pubDate>
       
-      <guid>http://localhost:1313/slote-site/pages/services/</guid>
+      <guid>https://honnerja.github.io/slote-site/pages/services/</guid>
       <description>Our program focuses on supporting residents in maintaining their abilities , preventing decline, and improving overall quality of life.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/slote-site/pages/services/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://honnerja.github.io/slote-site/pages/services/feature.jpg" />
     </item>
     
     <item>
       <title>Contact</title>
-      <link>http://localhost:1313/slote-site/pages/contact/</link>
+      <link>https://honnerja.github.io/slote-site/pages/contact/</link>
       <pubDate>Wed, 03 Jun 2026 00:52:36 -0400</pubDate>
       
-      <guid>http://localhost:1313/slote-site/pages/contact/</guid>
+      <guid>https://honnerja.github.io/slote-site/pages/contact/</guid>
       <description>Reach out to us!</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/slote-site/pages/contact/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://honnerja.github.io/slote-site/pages/contact/feature.jpg" />
     </item>
     
   </channel>

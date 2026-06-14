@@ -1,5 +1,5 @@
 <!-- modify this form HTML and place wherever you want your form -->
-<form class="w-full max-w-lg contact-form"
+<form id="myForm" class="w-full max-w-lg contact-form"
   action="https://formspree.io/f/mgobwlgg"
   method="POST"
 >
@@ -30,3 +30,30 @@
   </div>
   <button type="submit">Send</button>
 </form>
+
+<div id="acknowledgement" class="acknowledgement" hidden>
+  <b> Thank you, your response has been submitted. </b>
+<p>We are excited to be part of your community and look forward to supporting the health, independence, and well-being of your residents. We will be in contact with you in the next 24-48 business hours.</p>
+
+<b>In Wellness</b>
+</div>
+
+<script>
+  document.getElementById('myForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    const form = e.target;
+
+    fetch(form.action, {
+  method: form.method,
+  body: new FormData(form),
+  redirect: 'manual'
+})
+  .then(function() {
+    form.hidden = true;
+    document.getElementById('acknowledgement').hidden = false;
+  })
+  .catch(function(err) {
+    console.error(err);
+  });
+  });
+</script>

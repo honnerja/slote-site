@@ -101,7 +101,7 @@
           href="{{ $page.RelPermalink }}"
         {{ end }}
         class="not-prose before:absolute before:inset-0 decoration-primary-500 dark:text-neutral text-xl font-bold text-neutral-800 hover:underline hover:underline-offset-2">
-        <h2>
+        <h2 style="text-align: center;">
           {{ .Title | emojify }}
           {{ if .Params.externalUrl }}
             <span class="cursor-default align-top text-xs text-neutral-400 dark:text-neutral-500">
@@ -122,7 +122,7 @@
       {{ partial "article-meta/basic.html" . }}
     </div>
     {{ if .Params.showSummary | default (site.Params.list.showSummary | default false) }}
-      <div class="article-link__summary prose dark:prose-invert max-w-fit mt-1 line-clamp-3">
+      <div class="article-link__summary prose dark:prose-invert max-w-fit mt-1 line-clamp-3" style="font-size: x-large; font-weight: 500; color: rgb(33, 33, 33);">
         {{ .Summary | plainify }}
       </div>
     {{ end }}

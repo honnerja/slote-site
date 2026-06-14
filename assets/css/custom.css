@@ -25,6 +25,11 @@ html {
  outline-color: #496888;
 }
 
+.article-text {
+ text-align: center;
+
+}
+
 .article-link:hover {
   transition: 200ms;
   outline: solid;
@@ -34,6 +39,15 @@ html {
 
 article.left {
   margin-right: auto;
+}
+
+.acknowledgement {
+  border-radius: 10px;
+  background-color: #b69f86f2;
+  outline: solid;
+  outline-color: #d0d2c5;
+  transition: 200ms;
+  padding: 5px;
 }
 
 
