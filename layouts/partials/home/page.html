@@ -7,13 +7,6 @@
 {{ end }}
 
 <article class="max-w-full prose dark:prose-invert">
-  <div class="fixed inset-x-0 top-0 h-[800px] single_hero_background nozoom opacity-90">
-    <div style="opacity: .6; background-image: url({{$background}}); background-repeat: repeat; width: 100vw; height: 100vh;"></div>
-    <div
-      class="absolute inset-0"></div>
-    <div
-      class="absolute inset-0"></div>
-  </div>
   {{ with .Title }}
     <header>
       <h1>{{ . | emojify }}</h1>

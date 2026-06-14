@@ -20,14 +20,15 @@ html {
 }
 
 .article-link {
- outline: solid;
+ /* outline: solid; */
  border-radius: 10px;
  outline-color: #496888;
 }
 
 .article-link:hover {
   transition: 200ms;
-  outline-color: #6b8aaa;
+  outline: solid;
+  outline-color: #d0d2c5;
   scale: 110%;
 }
 

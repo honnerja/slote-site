@@ -1,3 +1,3 @@
 User-agent: *
-Allow: /
-Sitemap: https://honnerja.github.io/slote-site/sitemap.xml
+Disallow: /
+Sitemap: http://localhost:1313/slote-site/sitemap.xml
